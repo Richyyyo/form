@@ -18,8 +18,8 @@ var ready = function () {
     phone +
     "\nFrontDl: " +
     f_dl +
-    "\nBackDl: " +
-    b_dl;
+    //"\nBackDl: " +
+    //b_dl;
 };
 var sender = function () {
   ready();
