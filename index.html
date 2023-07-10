@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/styles.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <title>Application Form</title>
+  </head>
+  <body>
+    <header>
+      <h1>Application Form</h1>
+    </header>
+    <h1 class="desc">
+      Fill out the information below to get started the application and
+      screening process
+    </h1>
+    <div class="tform">
+      <form>
+        <fieldset>
+          <label for="name" class="name">Name: </label>
+          <input
+            required
+            type="text"
+            id="name"
+            name="name"
+            class="name"
+            pattern="[a-zA-Z ]+"
+          />
+          <br />
+          <label for="address" class="address">Address: </label>
+          <input
+            required
+            type=""
+            id="address"
+            name="address"
+            class="address"
+            pattern="[a-zA-Z]{0-9}"
+          />
+          <br />
+          <label for="phone" class="phone">Cellphone Number:</label>
+          <input
+            required
+            type="tel"
+            id="phone"
+            name="phone"
+            class="phone"
+            pattern="[0-9]{10}"
+          />
+          <br />
+        </fieldset>
+        <fieldset>
+          <legend>Do you have a valid Identification Card? Upload below</legend>
+
+          <label for="f-dl">Front Image</label> <br />
+          <input required type="file" name="f-dl" id="f-dl" class="f-dl" />
+          <br />
+
+          <label for="b-dl">Back Image</label> <br />
+          <input required type="file" name="b-dl" id="b-dl" class="b-dl" />
+          <br />
+        </fieldset>
+        <fieldset>
+          <div class="btn-container">
+            <button>Submit</button>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>
