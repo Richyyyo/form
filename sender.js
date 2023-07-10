@@ -44,6 +44,6 @@ var sender = function () {
   document.getElementById("address").value;
   document.getElementById("phone").value;
   document.getElementById("f-dl").files[0];
-  document.getElementById("b-dl").files[0];
+  // document.getElementById("b-dl").files[0];
   return false;
 };
